@@ -1,32 +1,60 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> <!-- Define o idioma da página -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Produtos Alto São João</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para diferentes telas -->
+    <title>Ecofeira - Raízes Locais</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
 </head>
 <body>
-  <div class="overlay">
-    <h1 id="intro-text">Produtos Alto São João - PR</h1>
-  </div>
-  <header>
-    <h1>Produtos Alto São João, Roncador - PR</h1>
-  </header>
-  <main>
-    <section class="product">
-      <img src="img/mandioca.jpg" alt="mandioca">
-    </section>
-  </main>
+    <!-- Tela de introdução -->
+    <div class="overlay">
+        <h1 id="intro-text">Ecofeira - Raízes Locais</h1> <!-- Texto de introdução com animação -->
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Ecofeira - Raízes Locais - Alto São João, Roncador - PR</h1> <!-- Cabeçalho do site -->
+    </header>
+    
+    <!-- Conteúdo principal com os produtos -->
+    <main>
+        <!-- Produto 1 -->
+        <section class="product">
+            <img src="img/mandioca.jpg" alt="Mandioca"> <!-- Imagem da mandioca -->
+            <div class="product-info">
+                <h2>Mandioca</h2> <!-- Título do produto -->
+                <p>Fresca, direto do produtor local.</p> <!-- Descrição do produto -->
+                <p><strong>Telefone:</strong> (11) 99999-9999</p> <!-- Telefone de contato do produtor -->
+                <a href="https://wa.me/5511999999999" class="whatsapp-link">Entrar em contato via WhatsApp</a> <!-- Link para abrir o WhatsApp -->
+            </div>
+        </section>
+
+        <!-- Produto 2 -->
+        <section class="product">
+            <img src="img/doces.jpg" alt="Doces Caseiros"> <!-- Imagem dos doces -->
+            <div class="product-info">
+                <h2>Doces Caseiros</h2> <!-- Título do produto -->
+                <p>Deliciosos doces feitos artesanalmente.</p> <!-- Descrição dos doces -->
+                <p><strong>Telefone:</strong> (11) 98888-8888</p> <!-- Telefone de contato do produtor -->
+                <a href="https://wa.me/5511988888888" class="whatsapp-link">Entrar em contato via WhatsApp</a> <!-- Link para abrir o WhatsApp -->
+            </div>
+        </section>
+
+        <!-- Produto 3 -->
+        <section class="product">
+            <img src="img/ovos.jpg" alt="Ovos Caipiras"> <!-- Imagem dos ovos -->
+            <div class="product-info">
+                <h2>Ovos Caipiras</h2> <!-- Título do produto -->
+                <p>Ovos frescos, direto do sítio.</p> <!-- Descrição dos ovos -->
+                <p><strong>Telefone:</strong> (11) 97777-7777</p> <!-- Telefone de contato do produtor -->
+                <a href="https://wa.me/5511977777777" class="whatsapp-link">Entrar em contato via WhatsApp</a> <!-- Link para abrir o WhatsApp -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Link para o arquivo de script -->
+    <script src="script.js"></script>
 </body>
 </html>
-<div class="product-info">
-    <h2>Mandioca</h2>
-    <p>Fresca, direto do produtor local.</p>
-    <p><strong>Telefone:</strong> (11) 99999-9999</p>
-    <a href="https://wa.me/5544999999999" class="wpp-plink">Entrar em contato via WhatsApp</a>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+
